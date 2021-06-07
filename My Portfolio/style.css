@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Signika+Negative&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+
+header.header-top{
+    background-image: url('./images/header-top.jpg'), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1));
+    background-size: cover;
+    height:650px;
+}
+
+header.header-top nav ul li{
+    font-size: 20px;
+    margin: 20px 10px;
+    padding: 5px;
+    letter-spacing: 1px;
+    float:right;
+    list-style-type: none;
+}
+
+header.header-top nav ul li.left{
+    float:left;
+}
+
+header.header-top nav ul li a{
+    text-decoration: none;
+    color:beige;
+}
+
+header.header-top nav ul li a:hover{
+    color:lightseagreen;
+}
+
+header.header-top nav ul li a.button{
+    color:black;
+    background-color: gainsboro;
+    border-radius: 35px;
+    padding:10px;
+    font-weight: 700;
+}
+
+header.header-top nav ul li a.button:hover{
+    background-color: black;
+    color:grey;
+}
+
+nav::after{
+    display: block;
+    clear: both;
+    content:"";
+}
+
+div.container{
+    color:white;
+    text-align: center;
+    margin-top: 175px;
+}
+
+div.container h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+div.container p.content{
+    color:burlywood;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+div.container a.button{
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    background-color: gainsboro;
+    border-radius: 35px;
+    padding:10px;
+    font-weight: 700;
+    margin:10px;
+    font-size: 20px;
+}
+
+div.container a.button:hover{
+    background-color: black;
+    color:grey;
+}
+
+/* About Me*/
+
+section.about-me{
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(245,245,247,255);
+}
+
+section.about-me h2{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+section.about-me div.about-container div.about-content, section.about-me div.about-container div.about-img{
+    width:50%;
+    float:left;
+    font-size:20px;
+}
+
+div.about-container::after{
+    display: block;
+    clear:both;
+    content: "";
+}
+
+
+section.about-me div.about-container div.about-content{
+    padding-left: 30px;
+    margin-top:100px;
+    font-size: 20px;
+    font-weight: 600;
+    color:grey;
+    letter-spacing: 1px;
+}
+
+section.about-me div.about-container div.about-content a.button{
+    text-decoration: none;
+    display: inline-block;
+    background-color:black;
+    color: gainsboro;
+    border-radius: 35px;
+    padding:10px;
+    font-weight: 700;
+    margin:10px;
+    font-size: 20px;
+}
+
+section.about-me div.about-container div.about-content a.button:hover{
+    background-color: gainsboro;
+    color:black;
+}
+
+/*parts section*/
+
+div.parts-container div.parts{
+    margin-top: 100px;
+    width:33.33%;
+    float:left;
+}
+
+div.parts-container::after{
+    display:block;
+    clear:both;
+    content: "";
+}
+
+div.parts-container div.parts p.subheading{
+    margin: 10px;
+    color:brown;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+div.parts-container div.parts p.content{
+    font-size: 18px;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.808);
+    padding:15px;
+    font-weight: 600px;
+}
+
+div.parts-container div.parts a.link{
+    text-decoration: none;
+    color:grey;
+}
+
+div.parts-container div.parts a.link:hover{
+    color: black;
+    font-weight: 700px;
+}
+
+/*Why-me*/
+
+section.why-me{
+    text-align: center;
+    background-color: rgba(245,245,247,255);
+}
+
+section.why-me h2{
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+section.why-me div.why-parts div.why-img,section.why-me div.why-parts div.why-content{
+    margin-top: 20px;
+    width:50%;
+    float:left;
+}
+
+section.why-me::after{
+    display: block;
+    clear:both;
+    content: "";
+}
+
+section.why-me div.why-parts div.why-content{
+    padding-right: 30px;
+    margin-top: 120px;
+    font-size: 20px;
+    font-weight: 600;
+    color:grey;
+    letter-spacing: 1px;
+}
+
+section.why-me div.why-parts div.why-content a.link{
+    text-decoration: none;
+    display: inline-block;
+    background-color:black;
+    color: gainsboro;
+    border-radius: 35px;
+    padding:10px;
+    font-weight: 700;
+    margin:10px;
+    font-size: 20px;
+}
+
+section.why-me div.why-parts div.why-content a.link:hover{
+    background-color: gainsboro;
+    color:black;
+}
+
+
+/*Contact*/
+
+section.contact{
+    background:rgba(15,48,63,255);
+    text-align: center;
+    padding:20px;
+}
+
+section.contact div.contact-container h2{
+    color:blanchedalmond;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding: 20px;
+}
+
+section.contact div.contact-info h3{
+    font-size: 25px;
+}
+
+section.contact div.contact-container div.contact-img, section.contact div.contact-container div.contact-info{
+    width:50%;
+    float:left;
+}
+
+section.contact::after{
+    display:block;
+    clear:both;
+    content:"";
+}
+
+section.contact div.contact-container div.contact-info{
+    padding: 20px;
+    color:azure;
+    text-align: left;
+    padding-left: 100px;
+}
+
+section.contact div.contact-container div.contact-info ul li{
+    list-style-type:circle;
+}
+
+section.contact div.contact-container div.contact-info a.button{
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    background-color: gainsboro;
+    border-radius: 35px;
+    padding:10px;
+    font-weight: 700;
+}
+
+section.contact div.contact-container div.contact-info a.button:hover{
+    background-color: black;
+    color:grey;
+}
